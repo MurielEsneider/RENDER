@@ -7,7 +7,7 @@ const autosR = require('./routes/autosroutes');
 const clientesR = require('./routes/clienteroutes');
 
 // Definir el puerto con un valor predeterminado
-const PORT = process.env.PORT || 6000;
+const PORT = process.env.PORT || 4000;
 
 // Middleware para analizar JSON
 app.use(express.json());
